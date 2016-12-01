@@ -21,7 +21,7 @@
      font-family: 'Open Sans', sans-serif;
  }
  
-body, .navbar {
+.navbar, .home-callout {
   
   //Gradient provided by @_ighosh at uigradients.com
   background: #c0c0aa; /* fallback for old browsers */
@@ -31,4 +31,30 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.navbar-default .navbar-brand {
+  color:white;
+}
+
+.navbar-default .navbar-nav >li > a {
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color:white;
+  opacity:0.75;
+}
+
+.navbar-default .navbar-nav >li > a:hover {
+  color:white;
+  opacity:0.75;
+}
+
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
